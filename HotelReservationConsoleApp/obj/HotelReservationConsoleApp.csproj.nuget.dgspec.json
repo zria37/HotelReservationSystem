@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj": {}
+    "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj": {
+    "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
+        "projectUniqueName": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
         "projectName": "HotelReservationConsoleApp",
-        "projectPath": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Rapid Teknologi\\.nuget\\packages\\",
-        "outputPath": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\obj\\",
+        "projectPath": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\zakharia\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rapid Teknologi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zakharia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
