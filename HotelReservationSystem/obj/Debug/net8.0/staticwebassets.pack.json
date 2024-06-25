@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
+    },
+    {
       "Id": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
