@@ -4517,19 +4517,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zakharia\\.nuget\\packages\\": {}
+    "C:\\Users\\Farid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\HotelReservationSystem.csproj",
+      "projectUniqueName": "D:\\github\\HotelReservationSystem\\HotelReservationSystem\\HotelReservationSystem.csproj",
       "projectName": "HotelReservationSystem",
-      "projectPath": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\HotelReservationSystem.csproj",
-      "packagesPath": "C:\\Users\\zakharia\\.nuget\\packages\\",
-      "outputPath": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\obj\\",
+      "projectPath": "D:\\github\\HotelReservationSystem\\HotelReservationSystem\\HotelReservationSystem.csproj",
+      "packagesPath": "C:\\Users\\Farid\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\HotelReservationSystem\\HotelReservationSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zakharia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Farid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4613,7 +4613,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
