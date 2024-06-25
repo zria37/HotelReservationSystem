@@ -1,4 +1,4 @@
-﻿@model List<HotelReservationSystem.Models.Customer>
+﻿@model HotelReservationSystem.Models.LayoutViewModel
 
 @{
     ViewData["Title"] = "Customer Page";
@@ -45,7 +45,7 @@
             @{
                 var urut = 1;
             }
-            @foreach (var customer in Model)
+            @foreach (var customer in Model.Customers)
             {
                 <tr>
                     <td>@urut</td>

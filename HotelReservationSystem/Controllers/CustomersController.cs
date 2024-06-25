@@ -16,9 +16,13 @@ namespace HotelReservationSystem.Controllers
         // GET: CustomersController
         public ActionResult Index()
         {
-            IEnumerable<Customer> customers;
-            customers = _customerEF.GetAll();
-            return View(customers);
+            var customers = _customerEF.GetAll();
+            var model = new LayoutViewModel
+            {
+                IsLoggedIn = User.Identity.IsAuthenticated,
+                Customers = customers
+            };
+            return View(model);
         }
 
         // untuk menampilkan data berdasarkan modal
