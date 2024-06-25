@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Rooms\\Index.cshtml",
               "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Rooms\\Index.cshtml",
               "RelativeToolTip": "HotelReservationSystem\\Views\\Rooms\\Index.cshtml",
-              "ViewState": "AQIAACgAAAAAAAAAAAAIwEcAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwEcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-25T12:31:55.544Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T09:21:35.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:21:35.641Z"
             },
             {
               "$type": "Document",
