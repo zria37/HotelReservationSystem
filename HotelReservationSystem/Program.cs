@@ -1,7 +1,17 @@
+using HotelReservationSystem.Dal;
+using HotelReservationSystem.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddDbContext<HotelReservationSystemContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICustomer, CustomerEF>();
+
 
 var app = builder.Build();
 

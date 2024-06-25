@@ -1,14 +1,35 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelReservationSystem.Dal;
+using HotelReservationSystem.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelReservationSystem.Controllers
 {
     public class CustomersController : Controller
     {
+        private ICustomer _customerEF;
+
+        public CustomersController(ICustomer customerEF)
+        {
+            _customerEF = customerEF;
+        }
         // GET: CustomersController
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<Customer> customers;
+            customers = _customerEF.GetAll();
+            return View(customers);
+        }
+
+        // untuk menampilkan data berdasarkan modal
+        public ActionResult GetCustomer(int id)
+        {
+            var customer = _customerEF.GetById(id);
+            if (customer == null)
+            {
+                return NotFound();
+            }
+            return Json(customer);
         }
 
         // GET: CustomersController/Details/5
@@ -25,15 +46,17 @@ namespace HotelReservationSystem.Controllers
 
         // POST: CustomersController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Customer customer)
         {
             try
             {
+                var results = _customerEF.Add(customer);
+                TempData["SuccessMessage"] = "Customer created successfully!";
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch (Exception ex)
             {
+                TempData["ErrorMessage"] = "Error creating customer: " + ex.Message;
                 return View();
             }
         }
@@ -47,15 +70,18 @@ namespace HotelReservationSystem.Controllers
         // POST: CustomersController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(Customer customer)
         {
             try
             {
+                _customerEF.Update(customer);
+                TempData["SuccessMessage"] = "Customer updated successfully!";
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                TempData["ErrorMessage"] = "An error occurred while updating the customer.";
+                return RedirectToAction(nameof(Index));
             }
         }
 
@@ -72,11 +98,14 @@ namespace HotelReservationSystem.Controllers
         {
             try
             {
+                _customerEF.Delete(id);
+                TempData["SuccessMessage"] = "Customer deleted successfully!";
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                TempData["ErrorMessage"] = "Error deleting customer: " + ex.Message;
+                return RedirectToAction(nameof(Index));
             }
         }
     }
