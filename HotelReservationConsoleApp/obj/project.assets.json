@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Farid\\.nuget\\packages\\": {}
+    "C:\\Users\\Rapid Teknologi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
+      "projectUniqueName": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
       "projectName": "HotelReservationConsoleApp",
-      "projectPath": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\Farid\\.nuget\\packages\\",
-      "outputPath": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\HotelReservationConsoleApp\\obj\\",
+      "projectPath": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Rapid Teknologi\\.nuget\\packages\\",
+      "outputPath": "C:\\New folder\\HotelReservationSystem\\HotelReservationConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Farid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rapid Teknologi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

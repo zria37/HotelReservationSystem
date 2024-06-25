@@ -29,3 +29,34 @@ F:\ProjectAstra\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\r
 F:\ProjectAstra\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.pdb
 F:\ProjectAstra\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.genruntimeconfig.cache
 F:\ProjectAstra\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\ref\HotelReservationSystem.dll
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\appsettings.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.staticwebassets.runtime.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.exe
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.deps.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.runtimeconfig.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.dll
+C:\New folder\HotelReservationSystem\HotelReservationSystem\bin\Debug\net8.0\HotelReservationSystem.pdb
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.AssemblyInfoInputs.cache
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.AssemblyInfo.cs
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.csproj.CoreCompileInputs.cache
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.RazorAssemblyInfo.cache
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.RazorAssemblyInfo.cs
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.sourcelink.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets\msbuild.HotelReservationSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.HotelReservationSystem.props
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HotelReservationSystem.props
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HotelReservationSystem.props
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\scopedcss\bundle\HotelReservationSystem.styles.css
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\scopedcss\projectbundle\HotelReservationSystem.bundle.scp.css
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.dll
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\refint\HotelReservationSystem.dll
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.pdb
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\HotelReservationSystem.genruntimeconfig.cache
+C:\New folder\HotelReservationSystem\HotelReservationSystem\obj\Debug\net8.0\ref\HotelReservationSystem.dll
