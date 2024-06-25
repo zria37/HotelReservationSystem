@@ -1,5 +1,6 @@
 using HotelReservationSystem.Dal;
 using HotelReservationSystem.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,15 @@ builder.Services.AddDbContext<HotelReservationSystemContext>(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICustomer, CustomerEF>();
+builder.Services.AddScoped<IRoom, RoomEF>();
 
+// Tambahkan layanan otentikasi
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+    });
 
 var app = builder.Build();
 

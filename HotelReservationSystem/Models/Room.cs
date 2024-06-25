@@ -16,4 +16,6 @@ public partial class Room
     public decimal Price { get; set; }
 
     public string AvailabilityStatus { get; set; }
+
+    public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 }

@@ -12,4 +12,6 @@ public partial class Customer
     public string Name { get; set; }
 
     public string Email { get; set; }
+
+    public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 }

@@ -15,7 +15,11 @@ namespace HotelReservationSystem.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new LayoutViewModel
+            {
+                IsLoggedIn = User.Identity.IsAuthenticated
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()

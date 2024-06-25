@@ -14,4 +14,6 @@ public partial class Payment
     public decimal Amount { get; set; }
 
     public DateOnly PaymentDate { get; set; }
+
+    public virtual Reservation Reservation { get; set; }
 }

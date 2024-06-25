@@ -14,4 +14,6 @@ public partial class CheckIn
     public DateOnly CheckInDate { get; set; }
 
     public DateOnly CheckOutDate { get; set; }
+
+    public virtual Reservation Reservation { get; set; }
 }

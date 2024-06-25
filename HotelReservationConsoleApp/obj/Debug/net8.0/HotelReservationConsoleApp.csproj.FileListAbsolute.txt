@@ -1,0 +1,15 @@
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\bin\Debug\net8.0\HotelReservationConsoleApp.exe
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\bin\Debug\net8.0\HotelReservationConsoleApp.deps.json
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\bin\Debug\net8.0\HotelReservationConsoleApp.runtimeconfig.json
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\bin\Debug\net8.0\HotelReservationConsoleApp.dll
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\bin\Debug\net8.0\HotelReservationConsoleApp.pdb
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.AssemblyInfoInputs.cache
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.AssemblyInfo.cs
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.csproj.CoreCompileInputs.cache
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.sourcelink.json
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.dll
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\refint\HotelReservationConsoleApp.dll
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.pdb
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\HotelReservationConsoleApp.genruntimeconfig.cache
+F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\obj\Debug\net8.0\ref\HotelReservationConsoleApp.dll

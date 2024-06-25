@@ -18,4 +18,12 @@ public partial class Reservation
     public DateOnly CheckOutDate { get; set; }
 
     public string Status { get; set; }
+
+    public virtual ICollection<CheckIn> CheckIns { get; set; } = new List<CheckIn>();
+
+    public virtual Customer Customer { get; set; }
+
+    public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
+
+    public virtual Room Room { get; set; }
 }

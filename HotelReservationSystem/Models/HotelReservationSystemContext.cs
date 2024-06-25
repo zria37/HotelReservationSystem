@@ -13,6 +13,8 @@ public partial class HotelReservationSystemContext : DbContext
     {
     }
 
+    public virtual DbSet<Account> Accounts { get; set; }
+
     public virtual DbSet<CheckIn> CheckIns { get; set; }
 
     public virtual DbSet<Customer> Customers { get; set; }
@@ -25,10 +27,27 @@ public partial class HotelReservationSystemContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Account>(entity =>
+        {
+            entity.HasKey(e => e.UserId);
+
+            entity.Property(e => e.Password)
+                .IsRequired()
+                .HasMaxLength(255);
+            entity.Property(e => e.Username)
+                .IsRequired()
+                .HasMaxLength(50);
+        });
+
         modelBuilder.Entity<CheckIn>(entity =>
         {
             entity.Property(e => e.CheckInId).HasColumnName("CheckInID");
             entity.Property(e => e.ReservationId).HasColumnName("ReservationID");
+
+            entity.HasOne(d => d.Reservation).WithMany(p => p.CheckIns)
+                .HasForeignKey(d => d.ReservationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_CheckIns_Reservations");
         });
 
         modelBuilder.Entity<Customer>(entity =>
@@ -36,7 +55,7 @@ public partial class HotelReservationSystemContext : DbContext
             entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
             entity.Property(e => e.Email)
                 .IsRequired()
-                .HasMaxLength(25);
+                .HasMaxLength(30);
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(50);
@@ -47,6 +66,11 @@ public partial class HotelReservationSystemContext : DbContext
             entity.Property(e => e.PaymentId).HasColumnName("PaymentID");
             entity.Property(e => e.Amount).HasColumnType("money");
             entity.Property(e => e.ReservationId).HasColumnName("ReservationID");
+
+            entity.HasOne(d => d.Reservation).WithMany(p => p.Payments)
+                .HasForeignKey(d => d.ReservationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Payments_Reservations");
         });
 
         modelBuilder.Entity<Reservation>(entity =>
@@ -57,6 +81,16 @@ public partial class HotelReservationSystemContext : DbContext
             entity.Property(e => e.Status)
                 .IsRequired()
                 .HasMaxLength(25);
+
+            entity.HasOne(d => d.Customer).WithMany(p => p.Reservations)
+                .HasForeignKey(d => d.CustomerId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Reservations_Customers");
+
+            entity.HasOne(d => d.Room).WithMany(p => p.Reservations)
+                .HasForeignKey(d => d.RoomId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Reservations_Rooms");
         });
 
         modelBuilder.Entity<Room>(entity =>
@@ -64,7 +98,7 @@ public partial class HotelReservationSystemContext : DbContext
             entity.Property(e => e.RoomId).HasColumnName("RoomID");
             entity.Property(e => e.AvailabilityStatus)
                 .IsRequired()
-                .HasMaxLength(10);
+                .HasMaxLength(15);
             entity.Property(e => e.Price).HasColumnType("money");
             entity.Property(e => e.RoomType)
                 .IsRequired()
