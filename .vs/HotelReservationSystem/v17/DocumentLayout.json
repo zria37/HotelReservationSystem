@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\ProjectAstra\\HotelReservationSystem\\",
+  "WorkspaceRootPath": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B47D5A58-485D-4FB5-BEDC-4278DA6BAC2A}|HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B47D5A58-485D-4FB5-BEDC-4278DA6BAC2A}|HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj|d:\\bootcamp .net developer pt rapid technology indonesia\\groupproject\\hotelreservationconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B47D5A58-485D-4FB5-BEDC-4278DA6BAC2A}|HotelReservationConsoleApp\\HotelReservationConsoleApp.csproj|solutionrelative:hotelreservationconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\Program.cs",
+              "DocumentMoniker": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\HotelReservationConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "HotelReservationConsoleApp\\Program.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationConsoleApp\\Program.cs",
+              "ToolTip": "D:\\Bootcamp .Net Developer PT Rapid Technology Indonesia\\GroupProject\\HotelReservationConsoleApp\\Program.cs",
               "RelativeToolTip": "HotelReservationConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T05:57:17.873Z",
               "EditorCaption": ""

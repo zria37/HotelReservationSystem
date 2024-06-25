@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelReservationConsoleApp
-build_property.ProjectDir = F:\ProjectAstra\HotelReservationSystem\HotelReservationConsoleApp\
+build_property.ProjectDir = D:\Bootcamp .Net Developer PT Rapid Technology Indonesia\GroupProject\HotelReservationConsoleApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
