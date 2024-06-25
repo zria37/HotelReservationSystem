@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\ProjectAstra\\HotelReservationSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:29:49.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BookingController.cs",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\BookingController.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CustomerEF.cs",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Dal\\CustomerEF.cs",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Dal\\CustomerEF.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\CustomersController.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T09:21:35.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:21:35.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Program.cs",
