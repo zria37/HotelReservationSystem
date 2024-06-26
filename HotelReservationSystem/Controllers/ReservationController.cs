@@ -1,21 +1,37 @@
 ﻿using HotelReservationSystem.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace HotelReservationSystem.Controllers
 {
+
     public class ReservationController : Controller
     {
+        private readonly HotelReservationSystemContext _context;
+
+        public ReservationController(HotelReservationSystemContext context)
+        {
+            _context = context;
+        }
         // GET: ReservationController
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+            var customer = await _context.Customers.SingleOrDefaultAsync(c => c.Name == username);
+
             var model = new LayoutViewModel
             {
                 IsLoggedIn = User.Identity.IsAuthenticated,
-                UserRole = userRole // This will be "Staff" or "Customer"
+                UserRole = userRole,
+                CustomerId = customer?.CustomerId
             };
+
+            var rooms = await _context.Rooms.ToListAsync();
+
             return View(model);
         }
 

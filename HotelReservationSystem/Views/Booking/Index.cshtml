@@ -1,5 +1,79 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model HotelReservationSystem.Models.LayoutViewModel
+
 @{
+    ViewData["Title"] = "Booking Page";
+}
+
+<h2>Booking List</h2>
+<!-- Success/Error Messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+    <table id="bookingTable" class="display">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Room Number</th>
+                <th>Type</th>
+                <th>Check-In</th>
+                <th>Check-Out</th>
+                <th>Status</th>
+                <th>Price</th>
+                <th>Confirm</th>
+                <th>Cancel</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var urut = 1;
+            }
+            @foreach (var item in ViewBag.BookingDetails)
+            {
+                <tr>
+                    <td>@urut</td>
+                    <td>@item.CustomerName</td>
+                    <td>@item.CustomerEmail</td>
+                    <td>@item.RoomNumber</td>
+                    <td>@item.RoomType</td>
+                    <td>@item.CheckInDate.ToShortDateString()</td>
+                    <td>@item.CheckOutDate.ToShortDateString()</td>
+                    <td>@item.Status</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>
+                        @if (item.Status == "Pending")
+                        {
+                            <button class="btn btn-success" onclick="confirmBooking('@item.ReservationID')">Confirm</button>
+                        }
+                    </td>
+                    <td>
+                        @if (item.Status == "Pending")
+                        {
+                            <button class="btn btn-danger" onclick="cancelBooking('@item.ReservationID')">Cancel</button>
+                        }
+                    </td>
+                </tr>
+                urut++;
+            }
+        </tbody>
+    </table>
+
+@section Scripts {<script>
+    $(document).ready(function () {
+        $('#bookingTable').DataTable();
+    });
+</script>
 }

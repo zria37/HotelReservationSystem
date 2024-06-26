@@ -1,14 +1,49 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelReservationSystem.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace HotelReservationSystem.Controllers
 {
     public class BookingController : Controller
     {
+        private readonly HotelReservationSystemContext _context;
+
+        public BookingController(HotelReservationSystemContext context)
+        {
+            _context = context;
+        }
         // GET: BookingController
         public ActionResult Index()
         {
-            return View();
+            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            var model = new LayoutViewModel
+            {
+                IsLoggedIn = User.Identity.IsAuthenticated,
+                UserRole = userRole
+            };
+            var bookingDetails = (from r in _context.Reservations
+                                      join c in _context.Customers on r.CustomerId equals c.CustomerId
+                                      join ro in _context.Rooms on r.RoomId equals ro.RoomId
+                                      orderby r.CheckInDate descending
+                                      select new ReservationDetailsViewModel
+                                      {
+                                          ReservationID = r.ReservationId,
+                                          CustomerID = r.CustomerId,
+                                          CustomerName = c.Name,
+                                          CustomerEmail = c.Email,
+                                          RoomID = r.RoomId,
+                                          RoomNumber = ro.RoomNumber,
+                                          RoomType = ro.RoomType,
+                                          CheckInDate = r.CheckInDate,
+                                          CheckOutDate = r.CheckOutDate,
+                                          Status = r.Status,
+                                          AvailabilityStatus = ro.AvailabilityStatus,
+                                          Price = ro.Price
+                                      }).ToList();
+            ViewBag.BookingDetails = bookingDetails;
+            return View(model);
         }
 
         // GET: BookingController/Details/5

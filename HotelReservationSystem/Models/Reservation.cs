@@ -13,9 +13,9 @@ public partial class Reservation
 
     public int RoomId { get; set; }
 
-    public DateOnly CheckInDate { get; set; }
+    public DateTime CheckInDate { get; set; }
 
-    public DateOnly CheckOutDate { get; set; }
+    public DateTime CheckOutDate { get; set; }
 
     public string Status { get; set; }
 

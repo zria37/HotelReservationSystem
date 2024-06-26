@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\ProjectAstra\\HotelReservationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\models\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,28 +23,36 @@
       "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\models\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\dal\\customeref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\dal\\customeref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|f:\\projectastra\\hotelreservationsystem\\hotelreservationsystem\\models\\reservationdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E95BBC1-8D21-4271-81B6-FE44AC504BF1}|HotelReservationSystem\\HotelReservationSystem.csproj|solutionrelative:hotelreservationsystem\\models\\reservationdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,45 +62,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Program.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
-              "RelativeToolTip": "HotelReservationSystem\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "LayoutViewModel.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\LayoutViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\LayoutViewModel.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\LayoutViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\LayoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:48:59.192Z",
+              "WhenOpened": "2024-06-26T08:38:24.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\CustomersController.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "HotelReservationSystem\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:25:57.017Z",
+              "WhenOpened": "2024-06-26T08:38:13.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAqwFUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T04:24:36.974Z",
+              "WhenOpened": "2024-06-26T08:33:40.789Z",
               "EditorCaption": ""
             },
             {
@@ -95,74 +111,126 @@
               "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Reservation\\Index.cshtml",
               "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Reservation\\Index.cshtml",
               "RelativeToolTip": "HotelReservationSystem\\Views\\Reservation\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T04:17:02.225Z",
+              "WhenOpened": "2024-06-26T07:48:37.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\ReservationController.cs",
               "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\ReservationController.cs",
               "RelativeToolTip": "HotelReservationSystem\\Controllers\\ReservationController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wFsAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA3wCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:16:41.991Z",
+              "WhenOpened": "2024-06-26T07:46:04.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HotelReservationSystem\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T03:17:31.045Z",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T07:44:07.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\AccountController.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "HotelReservationSystem\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAmwAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T03:07:35.252Z",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T07:14:29.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LayoutViewModel.cs",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\LayoutViewModel.cs",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\LayoutViewModel.cs",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\LayoutViewModel.cs",
-              "RelativeToolTip": "HotelReservationSystem\\Models\\LayoutViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "ReservationDetailsViewModel.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\ReservationDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Models\\ReservationDetailsViewModel.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Models\\ReservationDetailsViewModel.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Models\\ReservationDetailsViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAASwAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T03:04:33.088Z",
+              "WhenOpened": "2024-06-26T07:05:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerEF.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Dal\\CustomerEF.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Dal\\CustomerEF.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Dal\\CustomerEF.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Dal\\CustomerEF.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:58:09.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HotelReservationSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBgAAAA3AAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "HotelReservationSystem\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T02:51:40.279Z",
+              "WhenOpened": "2024-06-26T05:58:33.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\BookingController.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswCwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T05:54:20.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Program.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Program.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:48:59.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HotelReservationSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\ProjectAstra\\HotelReservationSystem\\HotelReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HotelReservationSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:07:35.252Z",
               "EditorCaption": ""
             }
           ]
