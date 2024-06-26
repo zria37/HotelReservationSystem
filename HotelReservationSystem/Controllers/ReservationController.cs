@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelReservationSystem.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace HotelReservationSystem.Controllers
 {
@@ -8,7 +10,13 @@ namespace HotelReservationSystem.Controllers
         // GET: ReservationController
         public ActionResult Index()
         {
-            return View();
+            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            var model = new LayoutViewModel
+            {
+                IsLoggedIn = User.Identity.IsAuthenticated,
+                UserRole = userRole // This will be "Staff" or "Customer"
+            };
+            return View(model);
         }
 
         // GET: ReservationController/Details/5

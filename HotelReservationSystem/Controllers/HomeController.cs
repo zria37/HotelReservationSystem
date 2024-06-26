@@ -1,6 +1,7 @@
 using HotelReservationSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace HotelReservationSystem.Controllers
 {
@@ -15,9 +16,11 @@ namespace HotelReservationSystem.Controllers
 
         public IActionResult Index()
         {
+            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
             var model = new LayoutViewModel
             {
-                IsLoggedIn = User.Identity.IsAuthenticated
+                IsLoggedIn = User.Identity.IsAuthenticated,
+                UserRole = User.IsInRole("Staff") ? "Staff" : "Customer"
             };
             return View(model);
         }

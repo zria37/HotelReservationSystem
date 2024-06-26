@@ -53,11 +53,9 @@ namespace HotelReservationSystem.Dal
 
         public Room GetById(int id)
         {
-            var result = _dbContext.Rooms.Where(c => c.RoomId == id).FirstOrDefault();
-            if (result == null)
-            {
-                throw new ArgumentException("Category not found");
-            }
+            var result = (from r in _dbContext.Rooms
+                          where r.RoomId == id
+                          select r).FirstOrDefault();
             return result;
         }
 
